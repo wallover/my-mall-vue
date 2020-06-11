@@ -4,6 +4,7 @@
     <el-tree
       :data="menus"
       :props="defaultProps"
+      :expand-on-click-node="true"
       node-key="catId"
       ref="menuTree"
       @node-click="nodeclick"
@@ -28,7 +29,7 @@ export default {
       menus: [],
       expandedKey: [],
       defaultProps: {
-        children: "children",
+        children: "childes",
         label: "name"
       }
     };

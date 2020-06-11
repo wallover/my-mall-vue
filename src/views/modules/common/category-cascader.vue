@@ -41,7 +41,7 @@ export default {
       setting: {
         value: "catId",
         label: "name",
-        children: "children"
+        children: "childes"
       },
       categorys: [],
       paths: this.catelogPath

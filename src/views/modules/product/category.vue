@@ -6,7 +6,7 @@
     <el-tree
       :data="menus"
       :props="defaultProps"
-      :expand-on-click-node="false"
+      :expand-on-click-node="true"
       show-checkbox
       node-key="catId"
       :default-expanded-keys="expandedKey"
